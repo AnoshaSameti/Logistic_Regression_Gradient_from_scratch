@@ -34,6 +34,7 @@ This project uses **numerical gradient checking** as a way to validate the analy
 The basic idea is:
 
 ```text
+
 Analytical Gradient
        │
        │ Compare
