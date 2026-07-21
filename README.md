@@ -2,7 +2,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Used-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-From%20Scratch-orange)
 
-````markdown
+````
 
 # 🔍 Logistic Regression Gradient Checking from Scratch
 
@@ -55,7 +55,7 @@ Small Difference?
 
 ## 🧠 Logistic Regression
 
-The model first calculates the linear combination:
+The Logistic Regression calculation starts with the linear combination:
 
 $$
 z = Xw + b
@@ -252,17 +252,6 @@ b = np.random.randn()
 ```
 
 
-## 🛠️ Technologies Used
-
-* 🐍 **Python**
-* 🔢 **NumPy**
-* 📐 Vectorized mathematical operations
-* 🧮 Numerical differentiation
-* 📊 Linear algebra
-
-No machine-learning framework is required.
-
-
 ## 🚀 Possible Future Improvements
 
 * [ ] Implement Gradient Descent
@@ -273,21 +262,13 @@ No machine-learning framework is required.
 * [ ] Visualize the decision boundary
 * [ ] Compare analytical and numerical gradients for different values of `ε`
 * [ ] Add numerical stability improvements to the sigmoid and cost functions
-* [ ] Extend the implementation to multiclass classification
 
 
-## 📚 Concepts Demonstrated
+## 💡 What I Learned
 
-`Python` · `NumPy` · `Logistic Regression` · `Binary Cross-Entropy` · `Gradient Descent` · `Analytical Derivatives` · `Numerical Differentiation` · `Central Difference` · `Gradient Checking` · `Linear Algebra` · `Machine Learning`
+This project helped me better understand how Logistic Regression works mathematically and how analytical gradients can be checked using numerical approximations.
 
-
-## 💡 Why This Project?
-
-Although this is a relatively small project, it demonstrates an important foundation in machine learning: understanding **what happens behind the scenes** rather than relying only on high-level libraries.
-
-By implementing the mathematical components manually and validating the gradients numerically, this project provides a practical demonstration of the connection between:
-
-> **Mathematics → Algorithms → Python Implementation → Validation**
+Instead of relying on a machine learning library, I implemented the main calculations with NumPy and compared the two gradient calculations to verify my implementation.
 
 
 ## 👩‍💻 Author
