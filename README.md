@@ -1,4 +1,3 @@
-<img width="830" height="860" alt="image" src="https://github.com/user-attachments/assets/42eb0138-d926-499a-bbaf-98606ced8968" /><img width="830" height="860" alt="image" src="https://github.com/user-attachments/assets/7492fe91-1fe4-4971-a2bc-c01197cb5d78" /><img width="830" height="860" alt="image" src="https://github.com/user-attachments/assets/726ea104-c81c-4943-a413-263d8b80a2a9" /># Logistic_Regression_Gradient_from_scratch
 
 ````markdown
 # 🔍 Logistic Regression Gradient Checking from Scratch
@@ -292,6 +291,7 @@ By implementing the mathematical components manually and validating the gradient
 ## 👩‍💻 Author
 
 **Anoosha Sameti**
+
 Biomedical Engineering Undergraduate
 
 
