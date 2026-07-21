@@ -2,9 +2,6 @@
 
 # 🔍 Logistic Regression Gradient Checking from Scratch
 
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Used-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
 > A simple NumPy implementation of **Logistic Regression**, including the **cost function**, **analytical gradients**, and **numerical gradient checking**.
 
 ## 📌 Overview 
@@ -116,20 +113,14 @@ def J(X, y, w, b):
 The analytical gradients of the Logistic Regression cost function are calculated using:
 
 $$
-\frac{\partial J}{\partial w}
-$$
-=
-$$
+\frac{\partial J}{\partial w}=
 \frac{1}{m}X^T(g-y)
 $$
 
 and:
 
 $$
-\frac{\partial J}{\partial b}
-$$
-=
-$$
+\frac{\partial J}{\partial b}=
 \frac{1}{m}\sum_{i=1}^{m}(g-y)
 $$
 
