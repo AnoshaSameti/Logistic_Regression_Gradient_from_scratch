@@ -6,7 +6,7 @@
 > A simple NumPy implementation of **Logistic Regression**, including the **cost function**, **analytical gradients**, and **numerical gradient checking** — built from scratch without using machine-learning libraries.
 
 
-# 📌 Overview #
+## 📌 Overview 
 
 This project demonstrates how the gradients used in **Logistic Regression** can be calculated in two different ways and then compared to verify their correctness.
 The project implements:
@@ -33,7 +33,6 @@ This project uses **numerical gradient checking** as a way to validate the analy
 
 The basic idea is:
 
-```text
 Analytical Gradient
        │
        │ Compare
@@ -46,7 +45,7 @@ Small Difference?
        ├── YES → ✅ Gradient implementation is likely correct
        │
        └── NO  → ❌ Check the derivative implementation
-```
+
 ````
 
 
