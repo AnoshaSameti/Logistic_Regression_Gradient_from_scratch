@@ -1,6 +1,14 @@
-
 ````markdown
 # 🔍 Logistic Regression Gradient Checking from Scratch
+
+# 🔍 Logistic Regression Gradient Checking from Scratch
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Used-013243?logo=numpy&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-From%20Scratch-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+> A simple NumPy implementation of **Logistic Regression**, including the **cost function**, **analytical gradients**, and **numerical gradient checking** — built from scratch without using machine-learning libraries.
 
 > A simple NumPy implementation of **Logistic Regression**, including the **cost function**, **analytical gradients**, and **numerical gradient checking** — built from scratch without using machine-learning libraries.
 
@@ -115,8 +123,7 @@ The analytical gradients of the Logistic Regression cost function are calculated
 
 $$
 \frac{\partial J}{\partial w}
-=============================
-
+=
 \frac{1}{m}X^T(g-y)
 $$
 
@@ -124,10 +131,10 @@ and:
 
 $$
 \frac{\partial J}{\partial b}
-=============================
-
+=
 \frac{1}{m}\sum_{i=1}^{m}(g-y)
 $$
+
 
 These are implemented in the `leftside()` function.
 
