@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Used-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
 ````markdown
 
 # 🔍 Logistic Regression Gradient Checking from Scratch
