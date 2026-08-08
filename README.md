@@ -257,8 +257,6 @@ b = np.random.randn()
 * [ ] Train the Logistic Regression model using the calculated gradients
 * [ ] Add model predictions
 * [ ] Calculate classification accuracy
-* [ ] Visualize the synthetic dataset
-* [ ] Visualize the decision boundary
 * [ ] Compare analytical and numerical gradients for different values of `ε`
 * [ ] Add numerical stability improvements to the sigmoid and cost functions
 
