@@ -2,7 +2,7 @@
 ![NumPy](https://img.shields.io/badge/NumPy-Used-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-From%20Scratch-orange)
 
-````
+
 
 # 🔍 Logistic Regression Gradient Checking from Scratch
 
